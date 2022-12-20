@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d84d723-9187-46ee-a95c-4c2c1d4f409a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NunitoSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NunitoSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NunitoSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/YesevaOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/camera_tire.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fumespace.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/camera.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../biblioteque" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/rostov.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rostov.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rostov.html" beforeDir="false" afterPath="$PROJECT_DIR$/idex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idex.html" beforeDir="false" afterPath="$PROJECT_DIR$/idex.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +69,7 @@
       <workItem from="1671348522773" duration="10669000" />
       <workItem from="1671435927305" duration="14016000" />
       <workItem from="1671471539071" duration="8593000" />
-      <workItem from="1671521980716" duration="63000" />
+      <workItem from="1671521980716" duration="12158000" />
     </task>
     <servers />
   </component>
