@@ -401,11 +401,6 @@ a:active {
     height: 18px;
 }
 
-/*.p_agree {
-    font-size: 14px;
-    margin-left: 10px;
-}*/
-
 .checkbox {
     display: none;
 }
@@ -428,7 +423,7 @@ a:active {
 }
 
 .checkbox:checked + label:before {
-    content: "v";
+    content: url("../svg/bird.svg");
 }
 
 

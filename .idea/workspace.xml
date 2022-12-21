@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d84d723-9187-46ee-a95c-4c2c1d4f409a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/carre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/accord.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/bird.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../biblioteque" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../checkbox.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/rostov.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rostov.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idex.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +42,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Kot Mos/Desktop/Biblioteque html/input.html",
+    "last_opened_file_path": "C:/Users/Kot Mos/Desktop/Biblioteque html/input checkbox/checkbox.css",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +74,8 @@
       <workItem from="1671547773861" duration="2574000" />
       <workItem from="1671559036024" duration="941000" />
       <workItem from="1671568289225" duration="332000" />
-      <workItem from="1671610258840" duration="33138000" />
+      <workItem from="1671610258840" duration="33596000" />
+      <workItem from="1671653672624" duration="4753000" />
     </task>
     <servers />
   </component>
