@@ -529,7 +529,6 @@ a:active {
      height: 650px;
      width: 700px;
      background-image: url("../images/whitehome.jpg");
-     border: solid black 1px;
 }
 
 .whitelist {
@@ -554,7 +553,6 @@ a:active {
     height: 509px;
     margin-top: 415px;
     margin-left: 135px;
-    border: black solid 1px;
     background-color: #131313;
 }
 
