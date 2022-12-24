@@ -492,41 +492,39 @@ a:active {
     font-family: "Yeseva One", Helvetica, Arial, serif;
     font-size: 18px;
     line-height: 120%;
+    margin-top: 10px;
     margin-left: 30px;
 }
 
-/*.ronde {
-    display: flex;
-    align-items: flex-start;
-    height: 50px;
-    width: 50px;
-    margin-top: 53px;
-    margin-left: 227px;
-    position: relative;
-    text-align: center;
-    color: white;
+.whitehome {
+   display: flex;
+   flex-wrap: wrap; 
 }
 
-/*.chifre {
+.ronde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 42px;
+    color: white;
+    background-color: #E3B873;
+    border-radius: 50%;
+    margin-left: 248px;
+}
+
+.chifre {
     font-family: "Yeseva One", Helvetica, Arial, serif;
     font-size: 18px;
     line-height: 120%;
     position: absolute;
-    top: 77%;
-    left: 85%;
-    transform: translate(-50%,-50%);
-}*/
-
-.whitehome {
-   display: flex;
-  
+    text-align: center;
 }
 
+
 .left {
-     /*display: flex;
+     display: flex;
      flex-direction: column;
-     justify-content: space-around;
-     padding-bottom: 100px;*/
      margin-top: 358px;
      height: 650px;
      width: 700px;
@@ -534,8 +532,14 @@ a:active {
      border: solid black 1px;
 }
 
-/*.whitehome-text {
-    margin-top: 30px;
+.whitelist {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.whitehome-text {
+    margin-left: 18px;
     width: 320px;
     height: 39px;
     font-size: 14px;
@@ -543,7 +547,7 @@ a:active {
     color: #363636;
     min-inline-size: max-content;
     text-align: left;
-}*/
+}
 
 .right {
     width: 506px;
@@ -551,6 +555,7 @@ a:active {
     margin-top: 415px;
     margin-left: 135px;
     border: black solid 1px;
+    background-color: #131313;
 }
 
 .whitehome-text-right {
@@ -558,51 +563,67 @@ a:active {
     line-height: 130%;
     margin-top: 30px;
     text-align: center;
+    color: #FFFFFF;
 }
 
-.fio-1 {
+.fio-1, .phone-1, .email {
     width: 408px;
     margin-top:25px;
     margin-left: 50px;
-
+    background-color: #131313;
+    color: #FFFFFF;
 }
 
-.name_whitehome {
+.name_whitehome, .name_whitehome-1, .email-1, .agree-1 {
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 50px;   
 }
 
 .phone-1 {
     width: 408px;
     margin-top: 115px;
-    margin-left: 50px;
 }
 
 .name_whitehome-1 {
     margin-top: 100px;
-    margin-left: 50px;
 }
 .email {
     width: 408px;
     margin-top: 215px;
-    margin-left: 50px;
 }
 
 .email-1 {
-     margin-top: 200px;
-    margin-left: 50px;
+    margin-top: 200px;
 }
 
 .agree-1 {
-    margin-left: 50px;
     margin-top: 300px;
+    color: #FFFFFF;
+}
+
+.accord-1 {
+    font-size: 14px;
+    line-height: 163%;
 }
 
 .measurer {
     margin-top: 40px;
     margin-left: 240px;
     width: 213px;
+    box-shadow: none;
+}
 
+.piggy {
+    margin-left: 846px;
+    margin-top: -54px;
+}
+
+.piggy-text {
+    font-size: 18px;
+    line height: 140%;
+    color: #E3B873;
+    margin-top: -30px;
+    margin-left: 5px;
 }
 
 
