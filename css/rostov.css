@@ -45,7 +45,7 @@ body * {
     display: flex;
 }
 
-.header-nav a {
+.header-nav a, .stylesnav a {
     text-decoration: none;
     color: white;
 }
@@ -72,7 +72,7 @@ a:active {
     font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
 }
 
-.block {
+.block, .block-quatre {
     background-image: url("../images/block.jpg");
     background-size: cover;
     background-position: center;
@@ -320,11 +320,10 @@ a:active {
 }
 
 .block-trois {
-    height: 3600px;
+    height: 2575px;
     background-color:#FFFFFF;
     background-size: cover;
     background-position: center;
-    border: solid 1px black;
 }
 
 .tire_deux {
@@ -622,6 +621,80 @@ a:active {
     color: #E3B873;
     margin-top: -30px;
     margin-left: 5px;
+}
+
+.block-quatre {
+    display: flex;
+    background-image: url("../images/salon.jpg");
+    height: 864px;
+    position: relative;   
+}
+
+.styleshead {
+    margin-top: -53px;
+    margin-left: 100px;
+    line-height: 140%; /*revoir ça*/
+}
+
+.stylesnav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.repares {
+    font-size: 20px;
+    height:50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hren {
+    height: 557px;
+    width: 354px;
+}
+
+.fotki {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -950px;
+    margin-left: 560px;
+    width:800px;
+    height: 950px;
+}
+
+.clock {
+    margin-top: 90px;
+    margin-left: 30px;
+    width: 354px;
+    height: 560px;
+    background: url("../images/clock.jpg");
+}
+
+.canape {
+    margin-top: 20px;
+    margin-left: 44px;
+    width: 354px;
+    height: 275px;
+    background: url("../images/canape.jpg");
+}
+
+.tele {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 354px;
+    height: 350px;
+    background: url("../images/tele.jpg")
+}
+
+.fleur {
+    margin-top: -318px;
+    margin-left: 44px;
+    width: 354px;
+    height: 625px;
+    background: url("../images/fleur.jpg")
 }
 
 
