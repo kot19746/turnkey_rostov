@@ -426,6 +426,9 @@ a:active {
 .checkbox-1:checked + label:before {
     content: url("../svg/bird.svg");
 }
+.checkbox-2:checked + label:before {
+    content: url("../svg/bird.svg");
+}
 
 .types {
     color: #181818;
@@ -703,6 +706,8 @@ a:active {
 }
 
 .our-clients {
+    position: relative;
+    z-index: 1;
     margin-top: -50px;
 }
 
@@ -784,6 +789,91 @@ a:active {
     margin-right: 5px;
     margin-left: -15px;
 }
+
+.frames {
+    display: flex;
+
+}
+
+.frame-left {
+    margin-top: -377px;
+    width: 729px;
+    height: 755px;
+    background: url("../images/Frame-left.jpg");
+}
+
+.frame-right {
+    margin-top: -377px;
+    margin-left: -20px;
+    width: 729px;
+    height: 755px;
+    background: url("../images/Frame-right.jpg")
+}
+
+.questions {
+    width: 883px;
+    height: 445px;
+    margin-left: 285px;
+    margin-top: -219px;
+    position: relative;
+    z-index: 1;
+    background-color: #181818;
+}
+
+.have-any {
+    padding-top: 32px;
+    padding-left: 324px;
+}
+
+.last-input {
+    width: 520px;
+    height: 185px;
+    display: flex;
+}
+
+.any, .any-phone {
+    width: 231px;
+    margin-top: 36px;
+    margin-left: 180px;
+
+}
+
+.any-name, .any-name-1 {
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.any-phone, .any-name-1 {
+    margin-left: 470px;
+}
+
+.any-question {
+    margin-top: 129px;
+    margin-left: 180px;
+    width: 521px;
+}
+
+.any-name-2 {
+    margin-top: 115px;
+    margin-left: 180px;
+}
+
+..agree-2 {
+    margin-top: 300px;
+    color: #FFFFFF;
+}
+
+.agree-2 {
+    margin-top: 220px;
+    margin-left: 300px;
+}
+
+.button-any {
+    margin-top: 174px;
+    margin-left: -245px;
+    box-shadow: none;
+}
+
 
 
 
