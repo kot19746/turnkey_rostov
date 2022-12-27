@@ -609,7 +609,7 @@ a:active {
     margin-top: 40px;
     margin-left: 240px;
     width: 213px;
-    box-shadow: none;
+    box-shadow:  5px 20px rgba(227, 184, 115, 0.1);
 }
 
 .piggy {
@@ -702,7 +702,7 @@ a:active {
 .clients {
     height: 1107px;
     background: #FFFFFF;
-    border: solid black 1px;
+    border-top: solid 1px;
 }
 
 .our-clients {
@@ -871,7 +871,53 @@ a:active {
 .button-any {
     margin-top: 174px;
     margin-left: -245px;
-    box-shadow: none;
+    box-shadow:  5px 20px rgba(227, 184, 115, 0.1);
+}
+
+.adress {
+    width: 1440px;
+    height: 954px;
+    background: url("../images/building.jpg");
+    position: relative;
+    border-top: solid 1px;
+}
+
+.our-adress {
+    margin-top: 276px;
+    margin-left: -7px;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.vectors {
+    position: relative;
+    z-index: 1;
+    margin-top: 24px;
+    margin-left: 670px;
+}
+
+.chene {
+    padding: 0px 6px;
+}
+
+#insta:active {
+    border-bottom: 0px;
+}
+
+.map {
+    width: 925px;
+    height: 465px;
+    position: relative;
+    z-index: 1;
+    background: url("../images/map.jpg");
+    margin-top: 37px;
+    margin-left: 250px;
+}
+
+.footer {
+    height: 133px;
 }
 
 
