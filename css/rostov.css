@@ -1178,6 +1178,10 @@ a:active {
         margin-left: 0px;
     }
 
+    .any-question {
+        width: 480px;
+    }
+
     .have-any {
         margin-left: -155px;
         color: #FFFFFF;
@@ -1202,9 +1206,7 @@ a:active {
         width: 95%;
     }
 
-    .footer {
 
-    }
 
    
 
