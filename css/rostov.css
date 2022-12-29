@@ -45,6 +45,21 @@ body * {
     display: flex;
 }
 
+.burger-icon span {
+    display: block;
+    height: 4px;
+    width: 45px;
+    background-color: white;
+}
+
+.burger-icon span:nth-child(2) {margin: 7px 0;}
+
+.burger-icon {
+    display: none;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
 .header-nav a, .stylesnav a {
     text-decoration: none;
     color: white;
@@ -146,7 +161,7 @@ a:active {
 
 .block-deux {
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     background-color: #131313;
     background-size: cover;
     background-position: center;
@@ -174,13 +189,13 @@ a:active {
 
 .block-deux-1 {
     padding-top: 176px;
-    margin-left: 134px;
+    /*margin-left: 134px;*/
     width: 626px;
 
 }
 
 .block-deux-2 {
-    margin-right: 249px;
+    /*margin-right: 249px;*/
 }
 
 .title-1 {
@@ -279,7 +294,7 @@ a:active {
 }
 
 .fleches {
-    margin-left: 130px;
+    margin-left: 150px;
     margin-top: 20px;
 }
 .fleches a,.button_play a:active {
@@ -296,8 +311,8 @@ a:active {
     background-position: center;
     height: 434px;
     width: 817px;
-    margin-left: 303px;
-    margin-top: 180px;
+    margin-left: -314px;
+    margin-top: -309px;
 
 }
 
@@ -317,6 +332,7 @@ a:active {
     background: transparent;
     padding-left: 12px;
     box-shadow: none;
+    margin-left: 9px;
 }
 
 .block-trois {
@@ -919,6 +935,287 @@ a:active {
 .footer {
     height: 133px;
 }
+
+@media (max-width: 1300px) {
+
+    .header-nav {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+        height: 2px;
+        width: 20px;
+        margin-bottom: 70px;
+    }
+    
+    .title {
+      padding: 0px 0px; 
+    }
+
+    .block-text, .title {
+      margin: 0px 134px;
+      width: 500px;
+    }
+
+    .block {
+        padding: 50px 0px;
+
+    }
+
+    .block-deux-1 {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .title-1, .description, 
+    .project, .fleches {
+    }
+
+    .block-deux {
+      display: block;
+    }
+
+     .fumespace {
+         margin-left: 25px;
+    }
+
+    .city-control {
+        margin-left: 280px;
+        padding-top: 20px;
+        color: black;
+    }
+
+    .camera_space {
+        margin-left: 300px;
+    }
+
+    .plafond, .plafond-overlay {
+      width: 650px;
+      margin-left: 44px;
+    }
+
+    .plafond-overlay {
+        margin-top: 1316px;
+    }
+
+    .button_play {
+        margin-left: 285px;
+    }
+
+    .block-trois {
+        margin-top: 200px;
+    }
+
+    .tire_deux {
+        margin-top: 530px;
+        margin-left: 340px;
+    }
+
+    .block-text-2 {
+        margin-left: 25px;
+    }
+
+    .input-field, .types_repair {
+        margin-left: 50px;
+    }
+
+    .fio, .name {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .phone, .name-1 {
+        margin-top: 40px;
+        margin-left: 330px;
+    }
+
+    .name, .name-1 {
+        margin-top: 25px;
+    }
+
+    .button-input {
+        margin-top: 110px;
+        margin-left: 200px;
+    }
+
+    .agree {
+        margin-left: 150px;
+    }
+
+    .types {
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+
+    .hummer {
+        margin-left: 240px;
+    }
+
+    .examples {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .opisanie {
+        margin-top: 300px;
+        
+    }
+
+    .tableau {
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+
+    .whitehome {
+        margin-top: -360px;
+        margin-left: 80px;
+    }
+
+    .right {
+        margin-top: -40px;
+        margin-left: 50px;
+    }
+
+    .block-quatre {
+        margin-top: 1620px;
+    }
+
+    .fio-1 {
+        margin-top: 0;
+    }
+
+    .name_whitehome {
+        margin-top: -17px;
+    }
+
+    .email {
+        margin-top: 140px;
+    }
+
+    .email-1 {
+        margin-top: 125px;
+    }
+
+    .phone-1, .name_whitehome-1 {
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+
+    .left {
+        margin-left: -70px;
+    }
+
+    .name_whitehome-1 {
+        margin-top: 56px;
+    }
+
+    .agree-1 {
+        margin-top: 260px;
+        margin-left: 90px;
+    }
+
+    .measurer {
+        margin-top: 60px;
+        margin-left: 150px;
+    }
+
+    .piggy {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .piggy-text {
+        margin-top: 40px;
+    }
+
+    .block-cinq {
+        margin-top: 900px;
+    }
+
+    .fotki {
+        margin-top: -80px;
+        margin-left: -35px;
+    }
+
+    .clients {
+        margin-left: 90px;
+        border-color: #FFFFFF;
+    }
+
+    .types-clients {
+        margin-left: 230px;
+    }
+
+    .our-clients {
+        margin-left: 105px;
+    }
+
+    .recomendations {
+        margin-left: -35px;
+    }
+
+    .tableau-client {
+        margin: 20px; 0;
+    }
+
+    #fedosova {
+        margin-left: 30px;
+    }
+
+    .adress {
+        margin-top: 980px;
+        width: 100%;
+    }
+
+    .frames {
+        display: none;
+    }
+ 
+    .questions {
+        width: 565px;
+        margin-top: 180px;
+        margin-left: 0px;
+    }
+
+    .have-any {
+        margin-left: -155px;
+        color: #FFFFFF;
+    }
+
+    .button-any {
+        margin-left: -195px;
+    }
+
+    .our-adress {
+        margin-top: 210px;
+    }
+
+    .vectors {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .map {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .footer {
+
+    }
+
+   
+
+   
+
+
+  
+
+  
+}
+
 
 
 
