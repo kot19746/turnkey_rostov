@@ -1232,6 +1232,7 @@ a:active {
 
     body * {
         width: 375px;
+        box-sizing: border-box;
     }
 
     .header {
