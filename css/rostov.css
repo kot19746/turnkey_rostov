@@ -45,6 +45,10 @@ body * {
     display: flex;
 }
 
+#nomer {
+    display: none;
+}
+
 .burger-icon span {
     display: block;
     height: 4px;
@@ -98,6 +102,10 @@ a:active {
 
 .color-text {
     color: #E3B873;
+}
+
+#text-mobile {
+    display: none;
 }
 
 .title {
@@ -159,6 +167,10 @@ a:active {
     font-family: "Nunito Sans Italic", Helvetica, Arial, sans-serif;
 }
 
+#submit-mobile {
+    display: none;
+}
+
 .block-deux {
     display: flex;
     /*justify-content: space-around;*/
@@ -217,6 +229,10 @@ a:active {
 .description {
     margin-left: 120px;
     padding-top: 10px;
+}
+
+.moin-plus {
+    display: none;
 }
 
 .project {
@@ -291,6 +307,10 @@ a:active {
 
 .point:hover {
     opacity: initial;
+}
+
+#description-mobile {
+    display: none;
 }
 
 .fleches {
@@ -1205,17 +1225,195 @@ a:active {
         margin-left: 20px;
         width: 95%;
     }
+    
+}
 
+@media (max-width: 706px) {
 
+    body * {
+        width: 375px;
+    }
+
+    .header {
+        height: 57px;
+    }
+
+    .block {
+        width: 375px;
+        height: auto;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    #nomer {
+        display: block;
+        min-inline-size: max-content;
+        color: white;
+        text-decoration: none;
+        margin-right: 18px;
+    }
+
+    .logo {
+        padding-left: 18px;
+        min-inline-size: max-content;
+    }
+
+    .block-text {
+        display: none;
+    }
+
+    .title {
+        margin-top: 36px;
+        margin-bottom: 16px;
+        margin-left: 18px;
+        width: 339px;
+        font-size: 23px;
+
+    }
+
+    #text-mobile {
+        display: block;
+        font-size: 14px;
+        line-height: 136%;
+        margin-bottom: 50px;
+        margin-left: 18px;
+        width: 339px;
+    }
+
+    .button-calculate, /*.button-submit,*/ #submit-mobile {
+        display: block;
+        width: 338px;
+        margin-bottom: 26px;
+        margin-left: 18px;
+    }
+
+    .fleches {
+        display: none;
+    }
+
+    .description {
+       display: none;
+    }
+
+    .title-1, .city-control {
+        font-size: 22px;
+        text-align: center;
+        margin-top: -27px;
+        margin-left: 0;
+    }
+
+    #description-mobile {
+        display: block;
+        width: 311px;
+        font-size: 11px;
+        text-align: center;
+        margin-left: 18px;
+        min-inline-size: max-content;
+    }
+
+    .comode {
+        width: 340px;
+        height: 241px;
+        margin-top: 64px;
+        margin-left: 16px;
+        background: url("../images/comode.jpg");
+    }
+
+    .moin-plus {
+        display: flex;
+        padding-top: 107px;
+    }
+
+    .moin-plus img {
+        width: 35px;
+    }
+
+    #moin, #plus {
+        margin-top: -4px;
+        margin-left: 15px;
+    }
+
+    #plus {
+        margin-left: 192px;
+    }
+
+    .fumespace {
+        display: none;
+
+    } 
+
+    .project {
+       margin-left: 18px; 
+    }
+
+    .city-style {
+        width: 160px;
+        height: 89px;
+    }
+
+    .city {
+        font-size: 14px;
+    }
+
+    .block-text-1 {
+        font-size: 11px;
+    }
+
+    .city-control {
+        margin-top: -121px;
+        color: #FFFFFF;
+    }
+
+    .camera {
+        width: 57px;
+        margin-right: -8px;
+    }
+
+    .camera_space {
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+
+    .plafond {
+        width: 340px;
+        height: 207px;
+        margin-top: 35px;
+        margin-left: 18px;
+    }
+
+    .plafond-overlay {
+        width: 341px;
+        height: 209px;
+        margin-top: 820px;
+        margin-left: 17px;
+    }
+
+    .button_play {
+        margin-top: -30px;
+        margin-left: 97px;
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    #play {
+        width: 65px;
+        height: 65px;
+        margin-top: 130px;
+        margin-left: 45px;
+    }
 
    
 
-   
 
 
-  
 
-  
 }
 
 
