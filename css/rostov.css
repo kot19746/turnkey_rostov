@@ -173,7 +173,6 @@ a:active {
 
 .block-deux {
     display: flex;
-    /*justify-content: space-around;*/
     background-color: #131313;
     background-size: cover;
     background-position: center;
@@ -201,13 +200,8 @@ a:active {
 
 .block-deux-1 {
     padding-top: 176px;
-    /*margin-left: 134px;*/
     width: 626px;
 
-}
-
-.block-deux-2 {
-    /*margin-right: 249px;*/
 }
 
 .title-1 {
@@ -381,6 +375,10 @@ a:active {
     color: #363636;
 }
 
+#text-2-mobile {
+    display: none;
+}
+
 .fio  {
     width: 231px;
     height: 45px;
@@ -477,6 +475,10 @@ a:active {
 .hummer {
     margin-top: 15px;
     margin-left: 665px;  
+}
+
+#hummer-mobile {
+    display: none;
 }
 
 .examples {
@@ -591,6 +593,10 @@ a:active {
     margin-top: 415px;
     margin-left: 135px;
     background-color: #131313;
+}
+
+#right-mobile {
+    display: none;
 }
 
 .whitehome-text-right {
@@ -1016,7 +1022,7 @@ a:active {
     }
 
     .plafond-overlay {
-        margin-top: 1316px;
+        margin-top: 1321px;
     }
 
     .button_play {
@@ -1232,7 +1238,6 @@ a:active {
 
     body * {
         width: 375px;
-        box-sizing: border-box;
     }
 
     .header {
@@ -1242,6 +1247,10 @@ a:active {
     .block {
         width: 375px;
         height: auto;
+    }
+
+    .block-deux {
+        height: 1045px;
     }
 
     .burger-icon {
@@ -1275,7 +1284,6 @@ a:active {
         margin-left: 18px;
         width: 339px;
         font-size: 23px;
-
     }
 
     #text-mobile {
@@ -1287,7 +1295,7 @@ a:active {
         width: 339px;
     }
 
-    .button-calculate, /*.button-submit,*/ #submit-mobile {
+    .button-calculate, #submit-mobile {
         display: block;
         width: 338px;
         margin-bottom: 26px;
@@ -1343,11 +1351,6 @@ a:active {
     #plus {
         margin-left: 192px;
     }
-
-    .fumespace {
-        display: none;
-
-    } 
 
     .project {
        margin-left: 18px; 
@@ -1409,6 +1412,148 @@ a:active {
         margin-top: 130px;
         margin-left: 45px;
     }
+
+    .tire_deux {
+        width: 55px;
+        margin-left: 210px;
+        margin-top: 0px;
+    }
+
+    .block-text-2, .fumespace, .input-field,
+    .hummer {
+        display: none;
+    }
+
+    #text-2-mobile {
+        display: block;
+        width: 340px;
+        height: 106px;
+        margin-top: 14px;
+        margin-left: 65px;
+        font-size: 11px;
+        color: white;
+        min-inline-size: max-content;
+    }
+
+    .block-trois {
+        margin-top: 0px;
+        width: 375px;
+        margin-left: -50px;
+    }
+
+    #right-mobile {
+       display: block;
+       width: 375px;
+       margin-top: -405px;
+    }
+
+    #fio-mobile, #name-mobile, #phone-mobile,
+    #name-mobile-1, #agree-mobile, #submit-mobile-1 {
+        margin-left: 18px;
+    }
+
+    #fio-mobile {
+        width: 338px;
+        margin-top: 224px;
+    }
+
+    #name-mobile {
+        margin-top: 208px;
+    }
+
+    #phone-mobile {
+        width: 338px;
+        margin-top: 333px;
+    }
+
+    #name-mobile-1 {
+        margin-top: 318px;
+    }
+
+    #agree-mobile {
+        margin-top: 260px;
+        padding-top: 414px;
+    }
+
+    #submit-mobile-1 {
+        display: block;
+        width: 340px;
+        margin-top: 69px;
+    }
+
+    .types {
+        font-size: 22px;
+        margin-top: 80px;
+        margin-left: 98px;
+    }
+
+    #hummer-mobile {
+        display: flex;
+        margin-top: 18px;
+        margin-left: 143px;
+    }
+
+    #camera_mobile {
+        width: 46px;
+        margin-right: -2px;
+        margin-left: -4px;
+    }
+
+    #tire-mobile {
+        display: block;
+        height: 10%;
+    }
+
+    .examples {
+        margin-left: -32px;
+    }
+
+    .tableau {
+        width: 340px;
+        height: 365px;
+    }
+
+    .opisanie {
+        width: 270px;
+        margin-top: 224px;
+        margin-right: 74px;
+        margin-left: -1px;
+    }
+
+    #h3-mobile {
+        font-size: 15px;
+    }
+
+    #rede, #over, #design {
+        background-size: 100%;
+    }
+
+    #square-mobile {
+        display: block;
+        width: 190px;
+        height: 40px;
+        margin-left: 0;
+        font-size: 15px;
+        min-inline-size: max-content;
+    }
+
+    .block-quatre {
+        margin-top: -120px;
+        background-image: none;
+    }
+
+    #overlay-mobile, .stylesnav,
+    .whitehome {
+        display: none;
+    }
+
+    #styleshead-mobile {
+        display: block;
+        margin-top: -275px;
+        margin-left: 2px;
+        line-height: 138%;
+    }
+
 
    
 
