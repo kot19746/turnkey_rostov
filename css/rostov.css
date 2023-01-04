@@ -45,10 +45,6 @@ body * {
     display: flex;
 }
 
-#nomer {
-    display: none;
-}
-
 .burger-icon span {
     display: block;
     height: 4px;
@@ -80,7 +76,6 @@ a:active {
 
 .header_nav_link {
     padding-right: 47px;
-
 }
 
 .logo {
@@ -102,10 +97,6 @@ a:active {
 
 .color-text {
     color: #E3B873;
-}
-
-#text-mobile {
-    display: none;
 }
 
 .title {
@@ -167,7 +158,8 @@ a:active {
     font-family: "Nunito Sans Italic", Helvetica, Arial, sans-serif;
 }
 
-#submit-mobile {
+#submit-mobile, .comode, 
+#text-mobile, #nomer {
     display: none;
 }
 
@@ -201,7 +193,6 @@ a:active {
 .block-deux-1 {
     padding-top: 176px;
     width: 626px;
-
 }
 
 .title-1 {
@@ -223,10 +214,6 @@ a:active {
 .description {
     margin-left: 120px;
     padding-top: 10px;
-}
-
-.moin-plus {
-    display: none;
 }
 
 .project {
@@ -256,7 +243,6 @@ a:active {
     width: 624px; height: 24px;
     list-style: none;
     display: flex;
-
 }
 
 .city, .city-control, .types, .h3 {
@@ -303,10 +289,6 @@ a:active {
     opacity: initial;
 }
 
-#description-mobile {
-    display: none;
-}
-
 .fleches {
     margin-left: 150px;
     margin-top: 20px;
@@ -319,34 +301,41 @@ a:active {
     margin-right: 14px;
 }
 
+.surveillance {
+    display: flex;
+    width: 817px;
+    height: 434px;
+    align-items: center;
+    justify-content: center;
+}
+
 .plafond {
     background-image: url("../images/Plafond.jpg");
     background-size: cover;
     background-position: center;
     height: 434px;
     width: 817px;
-    margin-left: -314px;
-    margin-top: -309px;
-
+    margin-left: -622px;
+    margin-top: 56px;
 }
 
 .plafond-overlay {
+    position: absolute;
     background-size: cover;
     background-position: center;
     height: 434px;
     width: 817px;
     margin-left: 312px;
     margin-top: 847px;
-
 }
 
 .button_play {
-    position: relative;
-    margin-top: 165px;
+    position: absolute;
+    margin-top: 71px;
     background: transparent;
     padding-left: 12px;
     box-shadow: none;
-    margin-left: 9px;
+    margin-left: -500px;
 }
 
 .block-trois {
@@ -358,7 +347,7 @@ a:active {
 
 .tire_deux {
     width: 55px;
-    height: 2px;
+    height: 3px;
     margin-top: 267px;
     margin-left: 690px;
     border-radius: 30px;
@@ -375,10 +364,6 @@ a:active {
     color: #363636;
 }
 
-#text-2-mobile {
-    display: none;
-}
-
 .fio  {
     width: 231px;
     height: 45px;
@@ -387,8 +372,7 @@ a:active {
     border-left: 0;
     position: absolute;
     margin-top: 81px;
-    margin-left: 336px; 
-   
+    margin-left: 336px;    
 }
 
 .phone {
@@ -433,10 +417,6 @@ a:active {
     height: 18px;
 }
 
-.checkbox, .checkbox-1 {
-    display: none;
-}
-
 .accord {
     font-size: 14px;
 }
@@ -477,7 +457,10 @@ a:active {
     margin-left: 665px;  
 }
 
-#hummer-mobile {
+#hummer-mobile, #right-mobile,
+.checkbox, .checkbox-1,
+#text-2-mobile, #description-mobile,
+.moin-plus {
     display: none;
 }
 
@@ -560,7 +543,6 @@ a:active {
     text-align: center;
 }
 
-
 .left {
      display: flex;
      flex-direction: column;
@@ -593,10 +575,6 @@ a:active {
     margin-top: 415px;
     margin-left: 135px;
     background-color: #131313;
-}
-
-#right-mobile {
-    display: none;
 }
 
 .whitehome-text-right {
@@ -834,7 +812,6 @@ a:active {
 
 .frames {
     display: flex;
-
 }
 
 .frame-left {
@@ -900,9 +877,17 @@ a:active {
     margin-left: 180px;
 }
 
-..agree-2 {
-    margin-top: 300px;
-    color: #FFFFFF;
+#input-bas-mobile {
+    display: none;
+}
+
+#input-bas {
+   display: block;
+   margin-top: -208px;
+}
+
+#agree-mobile-1 {
+    padding-top: 259px;
 }
 
 .agree-2 {
@@ -911,12 +896,13 @@ a:active {
 }
 
 .button-any {
-    margin-top: 174px;
-    margin-left: -245px;
-    box-shadow:  5px 20px rgba(227, 184, 115, 0.1);
+    margin-top: 65px;
+    margin-left: 335px;
+    box-shadow: 0 5px rgba(227, 184, 115, 0.1);
 }
 
 .adress {
+    margin-top: -225px;
     width: 1440px;
     height: 954px;
     background: url("../images/building.jpg");
@@ -948,6 +934,10 @@ a:active {
     border-bottom: 0px;
 }
 
+.adress-overlay {
+    background-color: rgba( 0, 0, 0, .9);
+}
+
 .map {
     width: 925px;
     height: 465px;
@@ -962,9 +952,9 @@ a:active {
     height: 133px;
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
 
-    .header-nav {
+    .header-nav, .frames {
         display: none;
     }
 
@@ -986,7 +976,6 @@ a:active {
 
     .block {
         padding: 50px 0px;
-
     }
 
     .block-deux-1 {
@@ -1084,8 +1073,7 @@ a:active {
     }
 
     .opisanie {
-        margin-top: 300px;
-        
+        margin-top: 300px;    
     }
 
     .tableau {
@@ -1194,10 +1182,6 @@ a:active {
         width: 100%;
     }
 
-    .frames {
-        display: none;
-    }
- 
     .questions {
         width: 565px;
         margin-top: 180px;
@@ -1234,30 +1218,29 @@ a:active {
     
 }
 
-@media (max-width: 706px) {
+@media screen and (max-width: 356px) {
 
-    body * {
-        width: 375px;
+    .project {
+        width: auto;
     }
+    .accord-1 {
+        margin-left: -17px;
+    }
+
+}
+
+@media screen and (max-width: 706px) {
 
     .header {
         height: 57px;
     }
 
-    .block {
-        width: 375px;
+    .block, .block-deux, .block-trois {
+        width: auto;
         height: auto;
     }
 
-    .block-deux {
-        height: 1045px;
-    }
-
-    .burger-icon {
-        display: none;
-    }
-
-    .button {
+    .burger-icon, .button {
         display: none;
     }
 
@@ -1274,15 +1257,11 @@ a:active {
         min-inline-size: max-content;
     }
 
-    .block-text {
-        display: none;
-    }
-
     .title {
         margin-top: 36px;
         margin-bottom: 16px;
         margin-left: 18px;
-        width: 339px;
+        width: 90%;
         font-size: 23px;
     }
 
@@ -1292,22 +1271,19 @@ a:active {
         line-height: 136%;
         margin-bottom: 50px;
         margin-left: 18px;
-        width: 339px;
+        width: 90%;
     }
 
     .button-calculate, #submit-mobile {
         display: block;
-        width: 338px;
+        width: 90%;
         margin-bottom: 26px;
         margin-left: 18px;
     }
 
-    .fleches {
+    .fleches, .description,
+    .block-text {
         display: none;
-    }
-
-    .description {
-       display: none;
     }
 
     .title-1, .city-control {
@@ -1319,19 +1295,23 @@ a:active {
 
     #description-mobile {
         display: block;
-        width: 311px;
+        width: 90%;
         font-size: 11px;
         text-align: center;
         margin-left: 18px;
-        min-inline-size: max-content;
     }
 
     .comode {
-        width: 340px;
-        height: 241px;
+        display: block;
+        width: 90%;
+        height: auto;
         margin-top: 64px;
         margin-left: 16px;
-        background: url("../images/comode.jpg");
+    }
+
+    .comode-image {
+        width: 100%;
+        max-height: 428px;
     }
 
     .moin-plus {
@@ -1339,17 +1319,14 @@ a:active {
         padding-top: 107px;
     }
 
-    .moin-plus img {
-        width: 35px;
-    }
-
     #moin, #plus {
-        margin-top: -4px;
+        margin-top: 25%;
         margin-left: 15px;
+        position: absolute;
     }
 
     #plus {
-        margin-left: 192px;
+        margin-left: -48px;
     }
 
     .project {
@@ -1357,8 +1334,13 @@ a:active {
     }
 
     .city-style {
-        width: 160px;
+        width: 134px;
         height: 89px;
+        margin: 0 21px 30px 0;
+    }
+
+    .city-style:nth-of-type(2n) {
+        margin: 0 0 30px 0;
     }
 
     .city {
@@ -1380,28 +1362,39 @@ a:active {
     }
 
     .camera_space {
+        justify-content: center;
         margin-top: 20px;
-        margin-left: 130px;
+        margin-left: -20px;
+    }
+
+    .surveillance {
+        position: relative;
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
     }
 
     .plafond {
-        width: 340px;
+        width: 90%;
         height: 207px;
         margin-top: 35px;
-        margin-left: 18px;
+        margin-left: 0px;
     }
 
     .plafond-overlay {
-        width: 341px;
+        width: 93%;
         height: 209px;
-        margin-top: 820px;
-        margin-left: 17px;
+        margin-top: 34px;
+        margin-left: 11px;
+        position: absolute;
     }
 
     .button_play {
-        margin-top: -30px;
-        margin-left: 97px;
-        display: block;
+        margin-top: -287px;
+        margin-left: -39px;
+        display: flex;
         width: 30px;
         height: 30px;
     }
@@ -1413,10 +1406,16 @@ a:active {
         margin-left: 45px;
     }
 
+    .div-tire-deux {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10px;
+    }
+
     .tire_deux {
         width: 55px;
-        margin-left: 210px;
-        margin-top: 0px;
+        margin: 0;
     }
 
     .block-text-2, .fumespace, .input-field,
@@ -1426,25 +1425,22 @@ a:active {
 
     #text-2-mobile {
         display: block;
-        width: 340px;
-        height: 106px;
-        margin-top: 14px;
-        margin-left: 65px;
+        width: 90%;
+        margin: -8px auto;
+        padding-top: 20px;
         font-size: 11px;
         color: white;
-        min-inline-size: max-content;
     }
 
     .block-trois {
         margin-top: 0px;
-        width: 375px;
-        margin-left: -50px;
     }
 
     #right-mobile {
        display: block;
-       width: 375px;
+       width: auto;
        margin-top: -405px;
+       margin-left: 0;
     }
 
     #fio-mobile, #name-mobile, #phone-mobile,
@@ -1453,7 +1449,7 @@ a:active {
     }
 
     #fio-mobile {
-        width: 338px;
+        width: 90%;
         margin-top: 224px;
     }
 
@@ -1462,7 +1458,7 @@ a:active {
     }
 
     #phone-mobile {
-        width: 338px;
+        width: 90%;
         margin-top: 333px;
     }
 
@@ -1475,22 +1471,30 @@ a:active {
         padding-top: 414px;
     }
 
+    .accord-1 {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+
     #submit-mobile-1 {
         display: block;
-        width: 340px;
+        width: 90%;
         margin-top: 69px;
     }
 
     .types {
         font-size: 22px;
         margin-top: 80px;
-        margin-left: 98px;
+        margin-left: -54px;
+        text-align: center;
     }
 
     #hummer-mobile {
         display: flex;
         margin-top: 18px;
-        margin-left: 143px;
+        margin-left: -62px;
+        justify-content: center;
     }
 
     #camera_mobile {
@@ -1505,19 +1509,19 @@ a:active {
     }
 
     .examples {
-        margin-left: -32px;
+        justify-content: center;
+        margin-left: -83px;
     }
 
     .tableau {
-        width: 340px;
-        height: 365px;
+        height: 326px;
     }
 
     .opisanie {
-        width: 270px;
-        margin-top: 224px;
-        margin-right: 74px;
-        margin-left: -1px;
+        width: 85%;
+        margin-top: 196px;
+        margin-right: 73px;
+        margin-left: -2px;
     }
 
     #h3-mobile {
@@ -1526,11 +1530,12 @@ a:active {
 
     #rede, #over, #design {
         background-size: 100%;
+        margin-right: 48px;
     }
 
     #square-mobile {
         display: block;
-        width: 190px;
+        width: 55%;
         height: 40px;
         margin-left: 0;
         font-size: 15px;
@@ -1538,27 +1543,102 @@ a:active {
     }
 
     .block-quatre {
-        margin-top: -120px;
+        display: block;
+        height: auto;
+        margin-top: 300px;
+        padding: 0;
         background-image: none;
-    }
-
-    #overlay-mobile, .stylesnav,
-    .whitehome {
-        display: none;
     }
 
     #styleshead-mobile {
         display: block;
         margin-top: -275px;
+        margin-bottom: -30px;
         margin-left: 2px;
         line-height: 138%;
     }
 
+    .fotki, .clients, .footer,
+    #checkbox-idi-2, #input-bas,
+    #overlay-mobile, .stylesnav,
+    .whitehome {
+        display: none;
+    }
 
-   
+    .block-cinq {
+        margin-top: 0;
+    }
 
+    .questions {
+        display: block;
+        margin-top: 30px;
+        position: relative;
+        z-index: 0;
+        width: auto;
+        height: 560px;
+    }
 
+    .have-any {
+        padding: 150px 0 60px 0;
+    }
 
+    .last-input {
+        width: auto;
+        padding-top: 1px;
+        display: block;
+    }
+
+    #any, #any-phone, #any-question {
+        width: 85%;
+        margin-left: 20px;
+    }
+
+    .accord-2 {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        min-inline-size: max-content;
+    }
+
+    #input-bas-mobile {
+        display: block;
+    }
+
+    #agree-mobile-2 {
+        display: block;
+        margin-top: 203px;
+        margin-left: 15px;
+    }
+
+    .button-any {
+        display: block;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .adress {
+        height: 460px;
+        margin-top: 0;
+        background: #181818;
+    }
+
+    .map {
+        margin-top: -384px;
+        margin-left: 15px;
+        height: 255px;
+        width: 90%;
+        background: url("../images/map-mobile.jpg");
+    }
+
+    .our-adress {
+        margin-top: 46px;
+        font-size: 14px;
+        padding-top: 261px;
+        position: relative;
+        z-index: 2;
+    }
 
 }
 
