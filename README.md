@@ -1,2 +1,2 @@
 # turnkey_rostov
-My first lending site by Figma
+My first landing site by Figma
